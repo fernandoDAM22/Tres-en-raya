@@ -1,0 +1,75 @@
+:root{
+    --br: 1px solid black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1faee;
+}
+.game-container{
+    height: 90%;
+    width: 90%;
+    /* border: var(--br); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.information{
+    height: 10%;
+    width: 100%;
+    /* border: var(--br); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.game{
+    height: 80%;
+    width: 100%;
+    /* border: var(--br); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > div{
+    height: 33%;
+    width: 100%;
+    /* border: var(--br); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 100%;
+    width: 33%;
+    font-size: 70px;
+    background-color: #a8dadc;
+}
+.options{
+    height: 10%;
+    width: 100%;
+    /* border: var(--br); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 50%;
+    /* border: var(--br); */
+}
+.solve{
+    background: #80ed99;
+}
+.draw{
+    background-color: #e63946;
+}
+.options div{
+    margin: 10px 30px;
+}
+#dark-mode img,#reload img{
+    height: 40px;
+    width: 40px;
+}
